@@ -1,0 +1,4 @@
+interface:
+  display_name: "单 Agent 拆解"
+  short_description: "从真实行为拆解 Agent 工作逻辑、工具与状态，重构完整提示词并提炼借鉴点"
+  default_prompt: "请用 $single-agent-analysis 拆解这个 Agent，交付逻辑流程图、运行机制、上下文与状态约定、Tool 清单和定义、完整提示词反推草案及可借鉴点，区分实测、公开配置、推断与未知。"
